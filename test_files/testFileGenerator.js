@@ -4,7 +4,6 @@
 const randomInt = require('random-int');
 const createCsvWriter = require('csv-writer').createArrayCsvWriter;
 const faker = require('faker');
-const encode = require( 'hashcode' ).hashCode;
 const moment = require('moment');
 
 const csvWriter = createCsvWriter({
